@@ -1,0 +1,20 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Biker from '../assets/images/biker.jpg'
+import {Picture} from 'astro:assets';
+---
+
+<Layout title="Welcome to Astro.">
+	<main>
+		<Picture
+			src={Biker}
+			formats={["avif", "webp"]}
+			alt=""
+			width='600'
+			height='600'
+		/>
+	</main>
+</Layout>
+		
+	</main>
+</Layout>
